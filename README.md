@@ -5,8 +5,11 @@ A simple Go package for [Parity Next Nonce](https://wiki.parity.io/JSONRPC-parit
 ### Installation
 
 ```
+// If you are not using Go 1.11 Modules
 $ go get github.com/zulhfreelancer/go_parity_next_nonce
-$ go mod init
+
+// If you are using Go 1.11 Modules, run this before executing the code below
+$ go mod tidy
 ```
 
 ### Usage
