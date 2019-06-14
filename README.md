@@ -6,11 +6,16 @@ A simple Go package for [Parity Next Nonce](https://wiki.parity.io/JSONRPC-parit
 
 ```
 $ go get github.com/zulhfreelancer/go_parity_next_nonce
+$ go mod init
 ```
 
 ### Usage
 
 ```
+import (
+	"github.com/zulhfreelancer/go_parity_next_nonce"
+)
+
 func yourFunction() {
 	// insert an address with some past transactions
 	address := "0x..."
@@ -18,7 +23,7 @@ func yourFunction() {
 	// insert the Parity node RPC URL and port number
 	nodeURL := "http://xx.xxx.xxx.xxx:8545"
 
-	nonce, err := NextNonce(address, nodeURL)
+	nonce, err := nnonce.NextNonce(address, nodeURL)
 	if err != nil {
 		// handle error
 	}
