@@ -13,7 +13,11 @@ $ go mod init
 
 ```
 import (
+	// Short version (implicit)
 	"github.com/zulhfreelancer/go_parity_next_nonce"
+
+	// If you prefer to make it explicit
+	nnonce "github.com/zulhfreelancer/go_parity_next_nonce"
 )
 
 func yourFunction() {
