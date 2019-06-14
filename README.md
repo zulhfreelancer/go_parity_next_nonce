@@ -1,4 +1,4 @@
-## Golang Package for Parity Next Nonce
+## Parity Next Nonce (Golang)
 
 A simple Go package for [Parity Next Nonce](https://wiki.parity.io/JSONRPC-parity-module#parity_nextnonce)
 
