@@ -23,7 +23,7 @@ func yourFunction() {
 		// handle error
 	}
 
-	fmt.Printf("Nonce : %v\n", nonce)
-	fmt.Printf("Type  : %T\n", nonce)
+	fmt.Printf("Nonce : %v\n", nonce) // 193
+	fmt.Printf("Type  : %T\n", nonce) // uint64
 }
 ```
